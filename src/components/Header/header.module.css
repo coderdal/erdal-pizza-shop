@@ -1,0 +1,41 @@
+.header{
+    width: 100%;
+    background: var(--bg-color);
+    height: 54px;
+    padding: 2px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+}
+
+.link{
+    margin-right: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text-color);
+    transition: 250ms color ease-in;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: var(--text-color-light);
+}
+
+.dropdown{
+    display: none;
+}
+
+@media screen and (max-width: 710px) {
+    .nav{
+        display: none;
+    }
+
+    .dropdown{
+        display: block;
+    }
+}
