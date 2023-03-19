@@ -30,12 +30,20 @@
     display: none;
 }
 
+.blank{
+    display: none;
+}
+
 @media screen and (max-width: 710px) {
     .nav{
         display: none;
     }
 
     .dropdown{
+        display: block;
+    }
+    
+    .blank{
         display: block;
     }
 }

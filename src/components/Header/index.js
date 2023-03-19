@@ -9,6 +9,8 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className={styles.header}>
+      <div className={styles.blank}></div>
+
       <Image
         src="/images/logo.png"
         width={144}
@@ -55,22 +57,22 @@ const Header = () => {
           <Dropdown.Menu aria-label="Static Actions">
             <Dropdown.Item key="foods" textValue="Foods">
               <Link href="/foods" className={styles.link}>
-                Foods
+                <span>Foods</span>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item key="drinks" textValue="Drinks">
               <Link href="/drinks" className={styles.link}>
-                Drinks
+                <span>Drinks</span>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item key="about" textValue="About">
               <Link href="/about" className={styles.link}>
-                About
+                <span>About</span>
               </Link>
             </Dropdown.Item>
             <Dropdown.Item key="contact" textValue="Contact">
               <Link href="/contact" className={styles.link}>
-                Contact
+                <span>Contact</span>
               </Link>
             </Dropdown.Item>
           </Dropdown.Menu>
