@@ -1,0 +1,9 @@
+.carouselSlide {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.slideImage {
+  object-fit: cover;
+}
