@@ -11,13 +11,15 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.blank}></div>
 
-      <Image
-        src="/images/logo.png"
-        width={144}
-        height={24}
-        alt="logo"
-        priority
-      />
+      <Link href="/">
+        <Image
+          src="/images/logo.png"
+          width={144}
+          height={24}
+          alt="logo"
+          priority
+        />
+      </Link>
 
       <nav className={styles.nav}>
         <ul className={styles.links}>
