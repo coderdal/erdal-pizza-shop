@@ -1,4 +1,27 @@
 .footer {
   width: 100%;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul {
+  list-style: none;
+  margin: 0 0px 0px 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.07em;
+  transition: 200ms color ease-in;
+}
+
+.link:hover {
+  color: var(--text-color-light);
+}
+
+.nav {
   display: flex;
 }
