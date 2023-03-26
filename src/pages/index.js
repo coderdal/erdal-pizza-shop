@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Carousel from "@/components/Home/Carousel";
+import Hero from "@/components/Home/Hero";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <div className={styles.home}>
         <Carousel />
+        <Hero />
       </div>
     </>
   );
