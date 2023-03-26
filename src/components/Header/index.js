@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import styles from "./header.module.css";
+import styles from "@/styles/header.module.css";
 import { Dropdown, Button } from "@nextui-org/react";
 import { MenuIcon } from "./MenuIcon";
 import Link from "next/link";
