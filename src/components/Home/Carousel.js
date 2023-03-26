@@ -12,7 +12,7 @@ export const Banner = () => {
       spaceBetween={50}
       slidesPerView={1}
       autoplay={{
-        delay: 3000,
+        delay: 4000,
       }}
       modules={[Autoplay]}
     >
